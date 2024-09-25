@@ -1,0 +1,192 @@
+/*backgroung color for the entire page*/
+body{
+    background-color: hsl(0, 0%, 0%);
+    /*gray text for contast*/
+    font-family: 'Trebuchet MS', Arial;
+    margin:0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+nav ul li{
+ display: inline;   
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+padding: 1opx 30px;
+display: inline-block;
+}
+@media screen {
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*styling for the h1 heading*/
+.header h1 {
+    font-size: 2.5em;
+    color: #6200ee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  styling for the p paragraph */p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;/*smalller size for paragraph*/
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #777;/*bright color to stand out*/
+    text-shadow: 3px 5px;
+     
+}
+/*styling for the h1 heading(about me)*/
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #777;/*bright color to stand out*/
+    text-shadow: 3px 5px;
+    padding: 20px;
+    /*dark background for text contrast*/
+    border-radius: 12px;
+    
+     
+}
+
+    
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    padding: 20px;
+}
+#footer img{
+    width: 35px;
+    margin: 5px;
+
+}
+#footer p{
+    margin-top: 10px;
+}
+/*Contact page styling*/
+body{
+    background-color: hsl(160, 100%, 75%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+h1,h2{
+    text-align: center;
+    color: #000;
+}
+p{
+    text-align: center;
+    line-height: 1.6;
+}
+/*contact info styling*/
+Info{
+    margin: 40px auto;
+    max-width: 740px;
+    padding: 30px;
+    text-align: center;
+}
+contact details{
+    margin-top: 15px;
+}
+#recent-reviews{
+    padding: 50px 25px;
+    background-color: bisque;
+    color: #777;
+
+}
+recent-article reviews{
+    margin-bottom: 15px;
+}
+recent reviews h3 a{
+    color: #333;
+    text-decoration: none;
+}
+recent reviews h3 a:hover{
+    text-decoration: underline;
+}
+/*top 5 movies page styling*/
+body{
+    background-color: #777;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: #a9a9a9;
+    margin-top: 20px;
+    text-shadow: #777;
+}
+#top movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 4opx;
+}
+movie{
+    background-color: chocolate;
+    width: 240px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 8px; 
+    text-align: center;
+transition: tranform 0.3s;
+}
+movie:hover{
+    tranform:Scale(1.05)   
+}
+movie img{
+    width: 100px;
+    border-radius: 12px;
+}
+movie h2{
+    margin: 16px 0 10px
+    font-size 22px;
+color: darkblue;
+
+}
+movie p{
+    font: size 15px;
+    color:#777
+}
+movue rating{
+    font-size : 20px
+}
+#search bar {
+    text-align: center;
+    margin: 50px 0;
+}
+#search-bar input{
+    width: 40px;
+    padding: 8px;
+    font: size 14px;
+    border: 1px solid #ccc;
+    margin-right: 7px;
+}
+#search-bar button{
+    padding:12px 22px ;
+    font-size :18px
+    cursor: pointer 
+}
